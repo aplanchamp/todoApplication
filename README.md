@@ -6,4 +6,4 @@ The purpose of this application was to learn android development, it was develop
 ![ScreenShot](https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/login2.png)
 
 
-![Alt text](https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/login2.png)
+![](https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/login2.png =100x20)
