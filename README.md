@@ -8,5 +8,6 @@ The purpose of this application was to learn android development, it was develop
   <img src ="https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/login2.png" width="280"     height="500"/>
   <img src ="https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/My_current_todos.png" width="280" height="500"/>
   <img src ="https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/navigation_drawer.png" width="280" height="500"/>
+    <img src ="https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/about.png" width="280" height="500"/>
 </div>
 
