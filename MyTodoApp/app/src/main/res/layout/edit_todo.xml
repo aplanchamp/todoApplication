@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="Title"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/todo_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="15"
+            android:hint="@string/title_hint"
+            android:imeOptions="actionNext" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="Priority"
+            android:textSize="20dp"/>
+
+
+        <Spinner
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:entries="@array/priorities" >
+    </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="Description"
+            android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/todo_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="@string/description_hint">
+
+            </EditText>
+
+    </LinearLayout>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="center_vertical"
+android:layout_margin="16dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="Date :"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/date_todo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Select date"
+            />
+        <Button
+            android:id="@+id/pick_dateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_date"
+            android:textColor="@color/colorPrimaryText"/>
+
+    </TableRow>
+
+</LinearLayout> 

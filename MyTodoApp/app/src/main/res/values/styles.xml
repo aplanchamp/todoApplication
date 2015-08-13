@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorHighHighlight</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="MyCustomToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <!--<item name="android:textColorPrimary">@color/colorHighHighlight</item>-->
+        <!--<item name="android:textColorSecondary">@color/colorHighHighlight</item>-->
+    </style>
+
+    <style name="MyNavigationDrawerTheme" parent="MaterialNavigationDrawerTheme.Light.TranslucentKitKatStatusBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!--<item name="android:textColorPrimary">@color/colorHighHighlight</item>-->
+        <!--<item name="android:textColorSecondary">@color/colorHighHighlight</item>-->
+    </style>
+
+
+</resources>

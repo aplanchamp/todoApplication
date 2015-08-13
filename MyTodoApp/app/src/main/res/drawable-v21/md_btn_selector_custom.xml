@@ -1,0 +1,6 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorHighHighlight">
+
+    <item android:drawable="@drawable/md_btn_selector_custom_holo" />
+
+</ripple>

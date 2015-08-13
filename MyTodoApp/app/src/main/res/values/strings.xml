@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Todo Application</string>
+
+    <!-- Menu button -->
+    <string name="action_logout">Logout</string>
+
+    <!-- CurrentTodoFragment.class -->
+    <string name="action_add_todo">Add a todo</string>
+    <string name="title_activity_main">My current todos</string>
+    <string name="no_todos">You don\'t have any current todos. Tap the button below to create one.</string>
+
+    <!-- CompletedTodoFragment.class -->
+    <string name="no_todos_completed">You don\'t have completed any todos yet.</string>
+
+    <!-- Login.fragment -->
+
+    <string name="name_hint">Enter your username</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_page">Log in</string>
+    <string name="login_button">Log in</string>
+    <string name="register_button">Register here</string>
+
+    <!-- Register.fragment -->
+
+    <string name="password_verify_hint">Enter your password again</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="register_page">Fill in to register</string>
+
+    <!-- ForgottenPassword.fragment -->
+
+    <string name="forgotten_page">Password forgotten</string>
+    <string name="password_forgotten">Forgot password</string>
+    <string name="reset_button">Reset</string>
+    <string name="email_forgotten_hint">Enter registered email</string>
+
+    <!-- EditTodo.class -->
+
+    <string name="title_activity_todo_detail">Add a todo</string>
+    <string name="title_hint">Enter title</string>
+    <string name="description_hint">Enter description</string>
+    <string name="pick_date">Set</string>
+    <string name="pick_time">Set a limit time</string>
+    <string name="todo_edit_confirm">Save</string>
+    <string name="no_title">You must fill in a title</string>
+    <string name="add_fail">Something went wrong, try again later</string>
+    <string name="add_todo">Add todo</string>
+    <string name="edit_todo">Edit todo</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_tab_user">TabUserActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="tabs">
+        <item>LOG IN</item>
+        <item>REGISTER</item>
+        <item>FORGOTTEN</item>
+    </string-array>
+
+
+    <string-array name="nav">
+        <item>My Current Todos</item>
+        <item>My Completed Todos</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_completed_todo">CompletedTodoActivity</string>
+    <string name="about">This application was created to learn android Development. Using MyTodoApplication, you can easily organize yourself.</string>
+
+</resources>
