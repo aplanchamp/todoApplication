@@ -5,4 +5,4 @@ The purpose of this application was to learn android development, it was develop
 
 ![ScreenShot](https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/login2.png)
 
-<div style="width: 10px;"><img src ="https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/login2.png" /></div>
+<div><img src ="https://raw.githubusercontent.com/aplanchamp/todoApplication/master/ScreenVersion2/login2.png" width="50" height="50"/></div>
